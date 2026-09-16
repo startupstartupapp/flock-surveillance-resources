@@ -1,3 +1,27 @@
+<div align="center">
+
+<img width="100%" alt="FLOCK" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:731B56&height=220&section=header&text=FLOCK&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Web%20%7C%20HTML%20%7C%20Leaflet%20%7C%20Surveillance&descSize=16&descAlignY=58"/>
+
+`Web` [`HTML`](https://developer.mozilla.org/en-US/docs/Web/HTML) [`Leaflet`](https://leafletjs.com/) `Surveillance` `Mapping` - Surveillance camera network map - 336K+ cameras worldwide with inter-agency data sharing visualization
+
+[Project website / live view](https://ringmast4r.github.io/FLOCK)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=731B56&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=90&lines=Surveillance+camera+network+map+-+336K%2B+cameras+worldwide+with...%3BWeb+%2F+HTML+%2F+Leaflet+%2F+Surveillance+%2F+Mapping)](https://git.io/typing-svg)
+
+<br>
+
+[![Project](https://img.shields.io/badge/Project-FLOCK-731B56?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ringmast4r/FLOCK)
+[![Format](https://img.shields.io/badge/Format-HTML-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ringmast4r/FLOCK/tree/main)
+
+[![Stars](https://img.shields.io/github/stars/Ringmast4r/FLOCK?style=flat-square&color=731B56)](https://github.com/Ringmast4r/FLOCK/stargazers)
+[![Forks](https://img.shields.io/github/forks/Ringmast4r/FLOCK?style=flat-square&color=731B56)](https://github.com/Ringmast4r/FLOCK/network/members)
+[![Repo Size](https://img.shields.io/github/repo-size/Ringmast4r/FLOCK?style=flat-square&color=731B56)](https://github.com/Ringmast4r/FLOCK)
+[![Last Commit](https://img.shields.io/github/last-commit/Ringmast4r/FLOCK?style=flat-square&color=731B56)](https://github.com/Ringmast4r/FLOCK/commits/main)
+
+</div>
+
+---
+
 # FLOCK Surveillance Network Map
 
 > Interactive map visualizing 336,708+ surveillance cameras and their data-sharing networks worldwide
@@ -6,7 +30,8 @@
 
 ---
 
-## 🎯 Overview
+<a id="-overview"></a>
+## `> overview`
 
 This map visualizes the massive global surveillance infrastructure, showing:
 - **336,708 surveillance cameras** from public databases worldwide
@@ -16,7 +41,8 @@ This map visualizes the massive global surveillance infrastructure, showing:
 - **Flock Safety** camera installations
 - **Global coverage**: United States, Europe, Asia, Africa, Oceania, Americas
 
-## ✨ Features
+<a id="-features"></a>
+## `> features`
 
 - 🗺️ **Interactive Map**: Pan, zoom, and click cameras to explore
 - 🌍 **Global Coverage**: 336K+ cameras across all continents
@@ -28,7 +54,8 @@ This map visualizes the massive global surveillance infrastructure, showing:
 - ⚡ **Fast Loading**: Optimized with geographic tiling
 - 🔍 **Detailed Popups**: Click any marker for detailed information
 
-## 🚀 Quick Start
+<a id="-quick-start"></a>
+## `> quick_start`
 
 ### View the Map Online
 Visit the live map at: `https://YOUR_USERNAME.github.io/discord-flock/`
@@ -46,7 +73,8 @@ python -m http.server 8000
 # http://localhost:8000/index.html
 ```
 
-## 📁 Files
+<a id="-files"></a>
+## `> files`
 
 ```
 discord-flock/
@@ -60,7 +88,8 @@ discord-flock/
 
 **Note**: Master GeoJSON kept local only (exceeds GitHub 100MB limit). Map loads from optimized tiles.
 
-## 🎨 Map Legend
+<a id="-map-legend"></a>
+## `> map_legend`
 
 | Color | Type | Description |
 |-------|------|-------------|
@@ -69,7 +98,8 @@ discord-flock/
 | 🔵 Blue | Other Surveillance | General surveillance cameras |
 | 🟢 Green | Police Stations | Stations receiving Flock camera data |
 
-## 💡 How to Use
+<a id="-how-to-use"></a>
+## `> how_to_use`
 
 1. **Explore**: Pan and zoom to navigate the map
 2. **Click Cameras**: Click any orange/red marker to see its data-sharing network
@@ -77,7 +107,8 @@ discord-flock/
 4. **Network Lines**: Click "Show ALL Lines" to see all connections (warning: may be slow!)
 5. **Clear**: Click "Clear Lines" to remove network visualizations
 
-## 📊 Statistics
+<a id="-statistics"></a>
+## `> statistics`
 
 - **Total Cameras**: 336,708 (worldwide)
 - **Network Connections**: 113,829+ data-sharing connections
@@ -93,7 +124,8 @@ discord-flock/
   - Oceania: 3,000+ cameras
   - Africa: 2,000+ cameras
 
-## 🔧 Technical Details
+<a id="-technical-details"></a>
+## `> technical_details`
 
 ### Built With
 - [Leaflet.js](https://leafletjs.com/) - Interactive mapping library
@@ -114,7 +146,8 @@ discord-flock/
 - ✅ Safari
 - ✅ Mobile browsers
 
-## 📡 Data Sources
+<a id="-data-sources"></a>
+## `> data_sources`
 
 All data is from publicly available sources:
 
@@ -127,7 +160,8 @@ All data is from publicly available sources:
 - Last updated: November 2025
 - Dataset includes network sharing data between law enforcement agencies
 
-## 🔒 Privacy & Ethics
+<a id="-privacy--ethics"></a>
+## `> privacy__ethics`
 
 ### This Project is For:
 - ✅ Public awareness of surveillance infrastructure
@@ -147,7 +181,8 @@ All data is from publicly available sources:
 - Camera locations on public streets are increasingly considered public records
 - Washington court ruled Flock camera data are public records (Nov 2025)
 
-## 🤝 Contributing
+<a id="-contributing"></a>
+## `> contributing`
 
 Want to add more cameras or improve the map?
 
@@ -165,20 +200,23 @@ Want to add more cameras or improve the map?
    - Make improvements
    - Submit pull request
 
-## 📞 Support & Resources
+<a id="-support--resources"></a>
+## `> support__resources`
 
 - **GitHub Issues**: Report bugs or request features
 - **DeFlock.me**: https://deflock.me/
 - **EFF**: https://www.eff.org/
 - **ACLU**: https://www.aclu.org/
 
-## 📄 License
+<a id="-license"></a>
+## `> license`
 
 - **Code**: MIT License (or your choice)
 - **Data**: ODbL (OpenStreetMap), various public domain sources
 - **Map Tiles**: © OpenStreetMap contributors
 
-## 🙏 Credits
+<a id="-credits"></a>
+## `> credits`
 
 - **Data**: DeFlock.me community, OpenStreetMap contributors
 - **Mapping**: Leaflet.js
@@ -187,11 +225,9 @@ Want to add more cameras or improve the map?
 
 ---
 
-## 📈 Project Stats
+<a id="-project-stats"></a>
+## `> project_stats`
 
-![GitHub Stars](https://img.shields.io/github/stars/Ringmast4r/FLOCK?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/Ringmast4r/FLOCK?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/Ringmast4r/FLOCK)
 
 **Made with ❤️ for privacy awareness**
 
@@ -208,3 +244,11 @@ Want to add more cameras or improve the map?
 ---
 
 Brought to you by Ringmast4r 😘
+
+---
+
+<div align="center">
+
+<img width="100%" alt="FLOCK footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:731B56,100:000000&height=120&section=footer&text=RINGMAST4R%20%2F%2F%20MAPPING&fontSize=18&fontColor=ffffff&fontAlignY=65"/>
+
+</div>
